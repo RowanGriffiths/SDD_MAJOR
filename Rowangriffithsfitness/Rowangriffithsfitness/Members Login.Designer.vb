@@ -39,20 +39,20 @@ Partial Class Members
         Me.PassTBOX = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.MenuStrip1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.BioToolStripMenuItem, Me.OnlineTrainingToolStripMenuItem, Me.LearnToolStripMenuItem, Me.TeamRPFToolStripMenuItem, Me.PhotosToolStripMenuItem, Me.VideosToolStripMenuItem, Me.ContactToolStripMenuItem, Me.MembersToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
@@ -184,22 +184,13 @@ Partial Class Members
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.MistyRose
-        Me.PictureBox2.Location = New System.Drawing.Point(30, 94)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(1156, 108)
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.MistyRose
         Me.Label3.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label3.Location = New System.Drawing.Point(64, 112)
+        Me.Label3.Location = New System.Drawing.Point(64, 74)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(197, 33)
         Me.Label3.TabIndex = 11
@@ -210,7 +201,7 @@ Partial Class Members
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.MistyRose
         Me.Label4.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(66, 157)
+        Me.Label4.Location = New System.Drawing.Point(66, 119)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(378, 23)
         Me.Label4.TabIndex = 12
@@ -225,7 +216,7 @@ Partial Class Members
         Me.GroupBox1.Controls.Add(Me.Username)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(30, 221)
+        Me.GroupBox1.Location = New System.Drawing.Point(30, 183)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1156, 346)
         Me.GroupBox1.TabIndex = 15
@@ -234,31 +225,43 @@ Partial Class Members
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.Black
-        Me.LinkLabel1.Location = New System.Drawing.Point(27, 588)
+        Me.LinkLabel1.Location = New System.Drawing.Point(26, 558)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(114, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(145, 16)
         Me.LinkLabel1.TabIndex = 10
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Forgot your password?"
+        Me.LinkLabel1.VisitedLinkColor = System.Drawing.Color.Red
         '
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel2.LinkColor = System.Drawing.Color.Black
-        Me.LinkLabel2.Location = New System.Drawing.Point(27, 613)
+        Me.LinkLabel2.Location = New System.Drawing.Point(27, 587)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(115, 13)
+        Me.LinkLabel2.Size = New System.Drawing.Size(146, 16)
         Me.LinkLabel2.TabIndex = 16
         Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "Forgot your username?"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.MistyRose
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 54)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(1191, 108)
+        Me.PictureBox2.TabIndex = 10
+        Me.PictureBox2.TabStop = False
         '
         'Members
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Menu
-        Me.ClientSize = New System.Drawing.Size(1215, 682)
+        Me.ClientSize = New System.Drawing.Size(1215, 632)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.GroupBox1)
@@ -266,14 +269,15 @@ Partial Class Members
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Members"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Members"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -295,10 +299,10 @@ Partial Class Members
     Friend WithEvents PassTBOX As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 End Class

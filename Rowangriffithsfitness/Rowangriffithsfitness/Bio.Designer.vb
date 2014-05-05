@@ -42,7 +42,7 @@ Partial Class Bio
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.BioToolStripMenuItem, Me.OnlineTrainingToolStripMenuItem, Me.LearnToolStripMenuItem, Me.TeamRPFToolStripMenuItem, Me.PhotosToolStripMenuItem, Me.VideosToolStripMenuItem, Me.ContactToolStripMenuItem, Me.MembersToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1664, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1225, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -104,7 +104,7 @@ Partial Class Bio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1664, 862)
+        Me.ClientSize = New System.Drawing.Size(1225, 668)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Bio"

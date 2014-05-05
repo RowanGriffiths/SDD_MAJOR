@@ -22,110 +22,62 @@ Partial Class Home
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.HomeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OnlineTrainingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LearnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TeamRPFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PhotosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VideosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContactToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MembersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuStrip1.SuspendLayout()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'Button1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.MenuStrip1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HomeToolStripMenuItem, Me.BioToolStripMenuItem, Me.OnlineTrainingToolStripMenuItem, Me.LearnToolStripMenuItem, Me.TeamRPFToolStripMenuItem, Me.PhotosToolStripMenuItem, Me.VideosToolStripMenuItem, Me.ContactToolStripMenuItem, Me.MembersToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1225, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(1161, 12)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(62, 29)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Sign Up"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'HomeToolStripMenuItem
+        'Button2
         '
-        Me.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem"
-        Me.HomeToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.HomeToolStripMenuItem.Text = "Home"
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(1093, 12)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(62, 29)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Sign In"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'BioToolStripMenuItem
+        'PictureBox1
         '
-        Me.BioToolStripMenuItem.Name = "BioToolStripMenuItem"
-        Me.BioToolStripMenuItem.Size = New System.Drawing.Size(38, 20)
-        Me.BioToolStripMenuItem.Text = "Bio"
-        '
-        'OnlineTrainingToolStripMenuItem
-        '
-        Me.OnlineTrainingToolStripMenuItem.Name = "OnlineTrainingToolStripMenuItem"
-        Me.OnlineTrainingToolStripMenuItem.Size = New System.Drawing.Size(107, 20)
-        Me.OnlineTrainingToolStripMenuItem.Text = "Online Training"
-        '
-        'LearnToolStripMenuItem
-        '
-        Me.LearnToolStripMenuItem.Name = "LearnToolStripMenuItem"
-        Me.LearnToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
-        Me.LearnToolStripMenuItem.Text = "Learn"
-        '
-        'TeamRPFToolStripMenuItem
-        '
-        Me.TeamRPFToolStripMenuItem.Name = "TeamRPFToolStripMenuItem"
-        Me.TeamRPFToolStripMenuItem.Size = New System.Drawing.Size(79, 20)
-        Me.TeamRPFToolStripMenuItem.Text = "Team RPF"
-        '
-        'PhotosToolStripMenuItem
-        '
-        Me.PhotosToolStripMenuItem.Name = "PhotosToolStripMenuItem"
-        Me.PhotosToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-        Me.PhotosToolStripMenuItem.Text = "Photos"
-        '
-        'VideosToolStripMenuItem
-        '
-        Me.VideosToolStripMenuItem.Name = "VideosToolStripMenuItem"
-        Me.VideosToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-        Me.VideosToolStripMenuItem.Text = "Videos"
-        '
-        'ContactToolStripMenuItem
-        '
-        Me.ContactToolStripMenuItem.Name = "ContactToolStripMenuItem"
-        Me.ContactToolStripMenuItem.Size = New System.Drawing.Size(64, 20)
-        Me.ContactToolStripMenuItem.Text = "Contact"
-        '
-        'MembersToolStripMenuItem
-        '
-        Me.MembersToolStripMenuItem.Name = "MembersToolStripMenuItem"
-        Me.MembersToolStripMenuItem.Size = New System.Drawing.Size(74, 20)
-        Me.MembersToolStripMenuItem.Text = "Members"
+        Me.PictureBox1.BackColor = System.Drawing.SystemColors.GrayText
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 60)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1223, 298)
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1225, 692)
-        Me.Controls.Add(Me.MenuStrip1)
+        Me.BackColor = System.Drawing.SystemColors.Menu
+        Me.ClientSize = New System.Drawing.Size(1225, 642)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents HomeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents BioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents OnlineTrainingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents LearnToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TeamRPFToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PhotosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VideosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ContactToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents MembersToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class

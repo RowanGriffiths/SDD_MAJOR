@@ -22,3 +22,15 @@ H:\Major\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffith
 H:\Major\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Members.resources
 H:\Major\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Resources.resources
 H:\Major\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.vbproj.GenerateResource.Cache
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.exe
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.xml
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.pdb
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\bin\Debug\Rowangriffithsfitness.exe
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\bin\Debug\Rowangriffithsfitness.pdb
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\bin\Debug\Rowangriffithsfitness.xml
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Bio.resources
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Home.resources
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Login.resources
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Members.resources
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.Resources.resources
+C:\Users\rowan.griffiths1\Documents\SDD_MAJOR\Rowangriffithsfitness\Rowangriffithsfitness\obj\x86\Debug\Rowangriffithsfitness.vbproj.GenerateResource.Cache

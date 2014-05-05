@@ -91,10 +91,10 @@
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Members.Designer.vb">
-      <DependentUpon>Members.vb</DependentUpon>
+    <Compile Include="Members Login.Designer.vb">
+      <DependentUpon>Members Login.vb</DependentUpon>
     </Compile>
-    <Compile Include="Members.vb">
+    <Compile Include="Members Login.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -123,8 +123,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Members.resx">
-      <DependentUpon>Members.vb</DependentUpon>
+    <EmbeddedResource Include="Members Login.resx">
+      <DependentUpon>Members Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
